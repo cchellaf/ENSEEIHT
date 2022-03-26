@@ -1,0 +1,8 @@
+main{
+    int i = 3;
+    i += 4;
+    print i ;
+    rat r = [4/5];
+    r += [1/8];
+    print r;
+}
