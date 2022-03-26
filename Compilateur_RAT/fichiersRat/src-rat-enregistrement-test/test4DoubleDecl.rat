@@ -1,0 +1,5 @@
+main {
+    struct {int x int y} p2D = {3 4};
+    struct {int x int y bool z} p = {1 5 true};
+    print (p2D.x);
+}

@@ -1,0 +1,9 @@
+typedef R1 = struct {int x int y};
+typedef R2 = struct {int z R1 r};
+int r2z (R2 r){ return (r.z); }
+int r2x (R2 rec){ return ((rec.r ). x); }
+main{
+    R2 a = {1 {2 3}};
+    print (call r2z (a ));
+    print (call r2x (a ));
+}

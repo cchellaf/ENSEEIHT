@@ -1,0 +1,6 @@
+main{
+    struct {int x rat y} p = {3 [3/4]};
+    print (p.x);
+    (p.y) = [1/((p.x)+1)];
+    print (p.y);
+}

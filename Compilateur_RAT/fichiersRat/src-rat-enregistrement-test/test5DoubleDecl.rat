@@ -1,0 +1,4 @@
+main {
+    struct {rat x int y} p = {[1/3] 4};
+    int x = 2;
+}

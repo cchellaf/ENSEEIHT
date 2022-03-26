@@ -1,0 +1,10 @@
+main{
+    struct {int x int y} p = {2 3};
+    if ((p.x) < 4) {
+        int x = 3;
+        print (p.x);
+    } else {
+        int x = 4;
+        print (p.x);
+    }
+}
