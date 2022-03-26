@@ -1,0 +1,11 @@
+typedef Int2 = int;
+
+Int2 plus (Int2 a Int2 b){
+    return (a+b);
+}
+main{
+    Int2 a = 3;
+    Int2 b = 4;
+    int y = call plus (a b);
+    print y;
+}

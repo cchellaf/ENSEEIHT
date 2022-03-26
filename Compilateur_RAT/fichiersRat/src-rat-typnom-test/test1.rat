@@ -1,0 +1,8 @@
+main{
+    typedef Int2 = int;
+    Int2 a = 3;
+    typedef PInt = int *;
+    PInt px = &a ;
+    int y = (*px);
+    print y;
+}
